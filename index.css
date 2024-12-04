@@ -1,0 +1,130 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #2ecc71;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #formulario-sesion {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  #formulario-sesion h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #formulario-sesion label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  #formulario-sesion input[type="text"], #formulario-sesion input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  #formulario-sesion button {
+    width: 100%;
+    padding: 15px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  #formulario-sesion button:hover {
+    background-color: #34c759;
+  }
+  
+  #contenido-principal {
+    display: none;
+  }
+  
+  #candidatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .candidato {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .candidato img {
+    width: 150px;
+    height: 150px;
+    border-radius: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .candidato h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .candidato h3 {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  #resultados {
+    text-align: center;
+  }
+  
+  #resultados h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  #resultados ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #resultados li {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
